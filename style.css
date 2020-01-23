@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "MaisonNeue-Book", sans-serif;
+}
+
+.slick-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.slick-slide {
+    padding: 2px;
+}
+
+
+
+/* tombol navbar join us */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link {
+        font: bold;
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
